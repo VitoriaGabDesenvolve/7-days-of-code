@@ -1,0 +1,29 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0;
+    gap: 1.5em
+}
+
+.cabecalho--span {
+    color: var(--vermelho);
+    font-family: 'Inter Medium';
+}
+
+.cabecalho--titulo {
+    color: var(--cinza-azulado);
+    font-family: 'Inter Medium';
+    font-size: 3rem;
+}
+
+.cabecalho--paragrafo {
+    font-weight: 400;
+    color: var(--cinza);
+    margin-top: 0.75rem;
+    font-size: 1.25rem;
+    width: 40.5em;
+    text-align: center;
+    line-height: 1.875rem;
+}
