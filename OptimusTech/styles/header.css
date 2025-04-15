@@ -10,12 +10,9 @@
     width: 10%;
 }
 
-.navbar__menu img
-{
-    width: 7.06rem;
-    height: 4rem;
+.navbar__menu {
+    width: 50%;
 }
-
 .navbar__menu_itens {
     display: flex;
     gap: 2.5rem;
