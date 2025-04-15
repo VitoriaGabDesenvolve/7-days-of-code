@@ -1,0 +1,33 @@
+@import url(header.css);
+
+@font-face {
+    font-family: 'Inter Regular';
+    src: url('../fonts/Inter-Regular.otf') format('truetype');
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'Inter Medium';
+    src: url('../fonts/Inter-Medium.otf') format('truetype');
+    font-weight: 500;
+}
+
+
+:root {
+    --branco: #FFFFFF;
+    --cinza: #667085;
+    --vermelho: #8E2424
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--branco);
+    color: var(--cinza);
+    font-size: 1rem;
+    font-family: 'Inter Regular';
+    font-weight: 500;
+}

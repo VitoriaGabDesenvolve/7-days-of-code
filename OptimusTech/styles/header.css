@@ -1,0 +1,47 @@
+.container__navbar {
+    display: flex;
+    align-items: center;
+    margin: 0 5%;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.navbar--logo {
+    width: 10%;
+}
+
+.navbar__menu img
+{
+    width: 7.06rem;
+    height: 4rem;
+}
+
+.navbar__menu_itens {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.navbar__menu--item a {
+    color: var(--cinza)
+}
+
+.navbar__botoes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar__botoes a {
+    padding: 0.625em 1.125em;
+}
+
+.navbar__botao--entrar {
+    color: var(--cinza);
+}
+
+.navbar__botao--cadastrar {
+    color: var(--branco);
+    background-color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+    border-radius: 0.5em;
+}
