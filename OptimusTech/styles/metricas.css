@@ -1,0 +1,33 @@
+.metricas__container {
+    display: flex;
+    padding-bottom: 6em;
+    margin: 0 5%;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.metricas__container--item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+    width: 17.5em;
+}
+
+.metricas__container--titulo {
+    color: var(--vermelho);
+    font-size: 3.75rem;
+    font-family: Inter Medium;
+    font-weight: 600;
+}
+
+.metricas__container--subtitulo {
+    color: var(--cinza-azulado);
+    font-family: Inter Medium;
+    font-size: 1.125rem;
+}
+
+.metricas__container--paragrafo{
+    color: var(--cinza);
+    font-weight: 400;
+    line-height: 1.5em;
+}
