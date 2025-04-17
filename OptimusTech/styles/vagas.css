@@ -1,0 +1,42 @@
+.vagas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.vagas__talentos--info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.25em;
+    margin-top: 6em;
+    width: 95%;
+}
+
+.vagas__talentos--span {
+    color: var(--vermelho);
+    font-size: 0.875rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1em;
+    background-color: var(--vermelho-backgroud);
+}
+
+.vagas__talentos--titulo {
+    font-family: 'Inter SemiBold';
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    letter-spacing: -0.7px;
+}
+
+.vagas__talentos--paragrafo {
+    color: var(--cinza);
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.vagas__talentos--imagem {
+    width: 95%;
+    margin-top: 5%;
+}

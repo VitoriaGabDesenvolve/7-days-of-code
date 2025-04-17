@@ -1,11 +1,12 @@
 @import url(header.css);
 @import url(cabecalho.css);
 @import url(metricas.css);
+@import url(vagas.css);
 
 @font-face {
     font-family: 'Inter Regular';
     src: url('../fonts/Inter-Regular.otf') format('truetype');
-    font-weight: 500;
+    font-weight: 400;
 }
 
 @font-face {
@@ -14,11 +15,18 @@
     font-weight: 500;
 }
 
+@font-face {
+    font-family: 'Inter SemiBold';
+    src: url('../fonts/Inter-SemiBold.otf') format('truetype');
+    font-weight: 600;
+}
+
 :root {
     --branco: #FFFFFF;
     --cinza: #667085;
     --vermelho: #8E2424;
     --cinza-azulado: #101828;
+    --vermelho-backgroud: #8E24240D;
 }
 
 * {
