@@ -3,6 +3,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
+    margin: 6em 0;
 }
 
 .vagas__talentos--info {
@@ -11,7 +13,6 @@
     align-items: center;
     text-align: center;
     gap: 1.25em;
-    margin-top: 6em;
     width: 95%;
 }
 
@@ -39,4 +40,47 @@
 .vagas__talentos--imagem {
     width: 95%;
     margin-top: 5%;
+}
+
+.vagas__disponiveis {
+    width: 100%;
+    margin: 0 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas__disponiveis__area {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    text-align: start;
+    gap: 2em;
+    margin-top: 4%;
+}
+
+.vagas__disponiveis--titulo {
+    font-size: 1.25rem;
+}
+
+.vaga {
+    border-radius: 16px;
+    padding: 1.5em 1.5em 1.75em 1.5em;
+    font-family: 'Inter Medium';
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    border: 1px solid var(--cinza-claro)
+}
+
+.titulo-vaga {
+    font-size: 1.125rem;
+}
+
+.informacoes {
+    display: flex;
+    gap: 1em;
+    color: var(--cinza)
 }
