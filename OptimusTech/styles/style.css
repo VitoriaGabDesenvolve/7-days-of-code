@@ -2,6 +2,7 @@
 @import url(cabecalho.css);
 @import url(metricas.css);
 @import url(vagas.css);
+@import url(depoimentos.css);
 
 @font-face {
     font-family: 'Inter Regular';
@@ -28,6 +29,7 @@
     --vermelho: #8E2424;
     --cinza-azulado: #101828;
     --vermelho-backgroud: #8E24240D;
+    --vermelho-backgroud-depoimentos: #C3191908;
 }
 
 * {
