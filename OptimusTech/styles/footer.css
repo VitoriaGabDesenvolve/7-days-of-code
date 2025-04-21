@@ -1,0 +1,46 @@
+footer {
+    background-color: var(--cinza-rodape);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6rem;
+    gap: 2em;
+}
+
+.footer__titulo {
+    font-family: 'Inter SemiBold';
+    font-size: 2.25rem;
+    letter-spacing: -0.75px;
+    line-height: 2.75rem;
+    color: var(--preto-azulado);
+}
+
+.footer__paragrafo {
+    font-size: 1.25rem;
+    color: var(--cinza);
+}
+
+.email__input {
+    width: 22.5em;
+    height: 3em;
+    padding-left: 3%;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 8px;
+}
+
+.cadastro__button {
+    height: 3em;
+    width: 7.25em;
+    font-family: 'Inter Medium';
+    background-color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+    border-radius: 8px;
+    color: var(--branco);
+
+}
+
+.footer__direitos {
+    color: var(--cinza);
+}

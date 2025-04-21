@@ -9,12 +9,12 @@
 
 .cabecalho--span {
     color: var(--vermelho);
-    font-family: 'Inter Medium';
+    font-family: 'Inter SemiBold';
 }
 
 .cabecalho--titulo {
     color: var(--cinza-azulado);
-    font-family: 'Inter Medium';
+    font-family: 'Inter SemiBold';
     font-size: 3rem;
 }
 

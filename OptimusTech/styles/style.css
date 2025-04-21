@@ -3,6 +3,7 @@
 @import url(metricas.css);
 @import url(vagas.css);
 @import url(depoimentos.css);
+@import url(footer.css);
 
 @font-face {
     font-family: 'Inter Regular';
@@ -26,6 +27,7 @@
     --branco: #FFFFFF;
     --cinza: #667085;
     --cinza-claro: #EAECF0;
+    --cinza-rodape: #F9FAFB;
     --vermelho: #8E2424;
     --cinza-azulado: #101828;
     --vermelho-backgroud: #8E24240D;
